@@ -1,0 +1,136 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MasaSam.Forms.Controls
+</name>
+</assembly>
+<members>
+<member name="P:MasaSam.Forms.Controls.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:MasaSam.Forms.Controls.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:MasaSam.Forms.Controls.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:MasaSam.Forms.Controls.FileSystemTree.EnableDriveStateCheck">
+	<summary>
+ Enables drive state checking timer.
+ </summary>
+</member><member name="M:MasaSam.Forms.Controls.FileSystemTree.DisableDriveStateCheck">
+	<summary>
+ Disables drive state checking timer.
+ </summary>
+</member><member name="M:MasaSam.Forms.Controls.FileSystemTree.CreateDirectoryTree(MasaSam.Forms.Controls.DriveNode)">
+	<summary>
+ Creates directory tree for expanded drive node.
+ </summary>
+</member><member name="M:MasaSam.Forms.Controls.FileSystemTree.CreateDirectoryTree(MasaSam.Forms.Controls.DirectoryNode)">
+	<summary>
+ Creates directory tree for exanded directory node.
+ </summary>
+</member><member name="M:MasaSam.Forms.Controls.FileSystemTree.CreateDirectoryTree(MasaSam.Forms.Controls.DirectoryTreeNode,System.Collections.Generic.IEnumerable{System.IO.DirectoryInfo})">
+	<summary>
+ Creates directory tree for the directory node.
+ </summary>
+</member><member name="M:MasaSam.Forms.Controls.FileSystemTree.CreateFileTree(MasaSam.Forms.Controls.DirectoryNode)">
+	<summary>
+ Creates file tree for expanded directory node.
+ </summary>
+</member><member name="M:MasaSam.Forms.Controls.FileSystemTree.CreateFileTree(MasaSam.Forms.Controls.DirectoryNode,System.Collections.Generic.IEnumerable{System.IO.FileInfo})">
+	<summary>
+ Creates file tree for the directory node.
+ </summary>
+</member><member name="M:MasaSam.Forms.Controls.FileSystemTree.CreateInitialTree">
+	<summary>
+ Creates initial tree that contains my computer node
+ and drive nodes.
+ </summary>
+</member><member name="M:MasaSam.Forms.Controls.FileSystemTree.CreateInitialDriveTree(MasaSam.Forms.Controls.DriveNode)">
+	<summary>
+ Creates initial drive tree by ignoring drives that are not ready.
+ </summary>
+</member><member name="M:MasaSam.Forms.Controls.FileSystemTree.GetDirectories(System.IO.DriveInfo)">
+	<summary>
+ Gets directories of the provided drive.
+ </summary>
+</member><member name="M:MasaSam.Forms.Controls.FileSystemTree.GetFiles(System.IO.DirectoryInfo)">
+	<summary>
+ Gets files of the provided directory.
+ </summary>
+</member><member name="M:MasaSam.Forms.Controls.FileSystemTree.OnNodeExpanding(MasaSam.Forms.Controls.FileSystemNode)">
+	<summary>
+ Executed when node is expanding.
+ </summary>
+</member><member name="M:MasaSam.Forms.Controls.FileSystemTree.OnNodeClicked(MasaSam.Forms.Controls.FileSystemNode)">
+	<summary>
+ Executed when node is clicked.
+ </summary>
+</member><member name="M:MasaSam.Forms.Controls.FileSystemTree.OnNodeCollapsed(System.Windows.Forms.TreeNode)">
+	<summary>
+ Executed when node is collapsed.
+ </summary>
+</member><member name="M:MasaSam.Forms.Controls.FileSystemTree.OnNodeSelected(MasaSam.Forms.Controls.FileSystemNode)">
+	<summary>
+ Executed when node is selected.
+ </summary>
+</member><member name="M:MasaSam.Forms.Controls.FileSystemTree.IsReady(System.IO.DriveInfo)">
+	<summary>
+ Checks if drive is ready and if not, prompts user to insert media.
+ </summary>
+</member><member name="M:MasaSam.Forms.Controls.FileSystemTree.OnDriveActivated(System.IO.DriveInfo)">
+	<summary>
+ Raises DriveActivated event.
+ </summary>
+</member><member name="M:MasaSam.Forms.Controls.FileSystemTree.OnDriveUnactivated(System.IO.DriveInfo)">
+	<summary>
+ Raises DriveUnactivated event.
+ </summary>
+</member><member name="M:MasaSam.Forms.Controls.FileSystemTree.OnDriveSelected(System.IO.DriveInfo)">
+	<summary>
+ Raises DriveSelected event.
+ </summary>
+</member><member name="M:MasaSam.Forms.Controls.FileSystemTree.OnDirectorySelected(System.IO.DirectoryInfo)">
+	<summary>
+ Raises DirectorySelected event.
+ </summary>
+</member><member name="M:MasaSam.Forms.Controls.FileSystemTree.OnFileSelected(System.IO.FileInfo)">
+	<summary>
+ Raises FileSelected event.
+ </summary>
+</member><member name="M:MasaSam.Forms.Controls.FileSystemTree.ClearSelectedNodes">
+	<summary>
+ Clears the selected nodes collection.
+ </summary>
+</member><member name="M:MasaSam.Forms.Controls.FileSystemTree.HighlightSelectedNodes">
+	<summary>
+ Highlights the selected nodes.
+ </summary>
+</member><member name="M:MasaSam.Forms.Controls.FileSystemNode.#ctor(MasaSam.Forms.Controls.FileSystemNodeType)">
+	<summary>
+ Initializes new instance of <see cref="T:MasaSam.Forms.Controls.FileSystemNode"/> class.
+ </summary>
+	<param name="nodeType">A <see cref="T:MasaSam.Forms.Controls.FileSystemNodeType"/> of the node.</param>
+</member><member name="M:MasaSam.Forms.Controls.FileSystemNode.#ctor(MasaSam.Forms.Controls.FileSystemNodeType,System.String)">
+	<summary>
+ Initializes new instance of <see cref="T:MasaSam.Forms.Controls.FileSystemNode"/> class.
+ </summary>
+	<param name="nodeType">A <see cref="T:MasaSam.Forms.Controls.FileSystemNodeType"/> of the node.</param>
+	<param name="text">A text of the node.</param>
+</member><member name="P:MasaSam.Forms.Controls.FileSystemNode.NodeType">
+	<summary>
+ Gets the <see cref="T:MasaSam.Forms.Controls.FileSystemNodeType"/> of the node.
+ </summary>
+</member><member name="T:MasaSam.Forms.Controls.FileSystemNode">
+	<summary>
+ Class that represents file system tree node.
+ </summary>
+</member>
+</members>
+</doc>
